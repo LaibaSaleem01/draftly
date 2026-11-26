@@ -1,20 +1,33 @@
 # AI Workflow
 
-## AI Tools Used
-AI assistants were used during development to accelerate implementation, troubleshoot errors, explain unfamiliar concepts, and improve documentation.
+## 1. AI Tool Used
 
-## How AI Accelerated Development
-- Helped plan the application structure and implementation steps.
-- Assisted with React, TypeScript, and Supabase integration.
-- Helped troubleshoot authentication, database, and deployment issues.
-- Assisted in preparing documentation and validation steps.
+**ChatGPT (OpenAI)** was the only AI tool used during this assessment.
 
-## Human Review and Changes
-AI-generated suggestions were reviewed before implementation. Changes were tested locally and through the deployed application. Suggestions that were unnecessary or risked breaking working features were not adopted.
+## 2. How ChatGPT Supported Development
 
-## Verification
-- Ran the production build using `npm run build`.
+ChatGPT was used to:
+- Break down assessment requirements into manageable implementation tasks.
+- Provide guidance on React, TypeScript, and Supabase integration.
+- Help troubleshoot authentication, database, and deployment issues.
+- Explain errors and suggest possible solutions.
+- Assist with project documentation and README preparation.
+
+## 3. Human Review and Decision-Making
+
+AI-generated suggestions were reviewed before implementation. I adapted suggestions to fit the project requirements and avoided changes that could risk breaking working functionality.
+
+I made the final implementation decisions and remained responsible for testing and validating the application.
+
+## 4. Verification
+
+- Ran `npm run build` to verify the production build.
 - Tested authentication and document workflows.
-- Checked document persistence after refreshing.
-- Tested rich-text editing and file import.
-- Verified sharing permissions and access restrictions.
+- Checked rich-text editing and file imports.
+- Verified document persistence after refreshing.
+- Tested sharing permissions and access restrictions.
+- Tested the deployed application.
+
+## 5. Reflection
+
+ChatGPT helped accelerate development by providing implementation guidance, explaining unfamiliar concepts, and assisting with troubleshooting. It supported my workflow, while technical decisions, prioritisation, and final verification
