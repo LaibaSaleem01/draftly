@@ -109,17 +109,42 @@ function App() {
   }, [user]);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      setUser(data.session?.user ?? null);
-    });
+    let mounted = true;
+
+    supabase.auth.getSession()
+      .then(({ data, error }) => {
+        if (!mounted) return;
+
+        if (error) {
+          setError(error.message);
+        }
+
+        const sessionUser = data.session?.user ?? null;
+        setUser(sessionUser);
+
+        if (!sessionUser) {
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        if (!mounted) return;
+
+        setError(err.message || 'Unable to check login session.');
+        setLoading(false);
+      });
 
     const { data: listener } = supabase.auth.onAuthStateChange(
       (_event, session) => {
-        setUser(session?.user ?? null);
+        if (mounted) {
+          setUser(session?.user ?? null);
+        }
       }
     );
 
-    return () => listener.subscription.unsubscribe();
+    return () => {
+      mounted = false;
+      listener.subscription.unsubscribe();
+    };
   }, []);
 
   useEffect(() => {
