@@ -7,7 +7,7 @@ import StarterKit from '@tiptap/starter-kit';
 import {
   FileText, Plus, Search, Share2, Trash2, Pencil,
   LogOut, Bold, Italic, Underline as UnderlineIcon,
-  List, ListOrdered, Heading1, Heading2, ArrowLeft,
+  List, ListOrdered, Heading1, Heading2,
   Loader2, Check, FilePlus2, Clock, Users, X, Eye
 } from 'lucide-react';
 import './App.css';
