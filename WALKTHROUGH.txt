@@ -1,0 +1,13 @@
+Draftly — Walkthrough Video
+
+Video link: ADD YOUR VIDEO LINK HERE
+
+The walkthrough will demonstrate:
+1. User sign-up and login.
+2. Creating and editing a document.
+3. Rich-text formatting.
+4. Importing a TXT or Markdown file.
+5. Renaming and reopening a document.
+6. Sharing a document with another user.
+7. Viewer and editor permissions.
+8. Verifying saved content after refreshing.
