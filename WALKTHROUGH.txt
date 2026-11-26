@@ -1,6 +1,6 @@
 Draftly — Walkthrough Video
 
-Video link: ADD YOUR VIDEO LINK HERE
+Video link: https://youtu.be/AA1mfYeXTk4
 
 The walkthrough will demonstrate:
 1. User sign-up and login.

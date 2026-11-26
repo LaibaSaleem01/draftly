@@ -24,7 +24,7 @@ React, TypeScript, Vite, TipTap, Supabase, and Vercel.
 ## Supporting Materials
 - Architecture: `ARCHITECTURE.md`
 - AI Workflow: `AI_WORKFLOW.md`
-- Walkthrough video: link to be added
+- Walkthrough video: [(https://youtu.be/AA1mfYeXTk4)](https://youtu.be/AA1mfYeXTk4)
 
 ## Notes
 The application was built and tested locally, with a production build and deployed version.
